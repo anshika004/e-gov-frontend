@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaagaz Kavach Feedback</title>
+<link rel="stylesheet" href="feedbackstyle.css">
+</head>
+<body>
+<header>
+    <h1>Kaagaz Kavach</h1><br>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="feedback-form">
+        <h2>We'd Love to Hear from You!</h2>
+        <p>Thank you for choosing Kaagaz Kavach. Your feedback helps us improve our services.</p>
+        <form action="submit_feedback.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Feedback:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Kaagaz Kavach. All rights reserved.</p>
+</footer>
+</body>
+</html>
+
